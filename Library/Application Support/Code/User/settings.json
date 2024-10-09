@@ -1,0 +1,48 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.mergeEditor": false,
+  "files.insertFinalNewline": true,
+  "debug.disassemblyView.showSourceCode": false,
+  "git.autofetch": true,
+  "githubPullRequests.pullBranch": "never",
+  "window.zoomLevel": 3,
+  "editor.accessibilitySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "bettercaring",
+      "connectionId": "Mable",
+      "disableNotifications": true
+    },
+    {
+      "organizationKey": "bettercaring",
+      "connectionId": "SonarCloud Connection"
+    }
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "sonarlint.pathToNodeExecutable": "//Users//saranya.selvaraj//.asdf//installs//nodejs//20.10.0//bin//node",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.advanced": {},
+  "solargraph.commandPath": "/Users/saranya.selvaraj/.asdf/shims/solargraph",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2
+}
