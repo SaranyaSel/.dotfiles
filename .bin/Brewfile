@@ -1,0 +1,86 @@
+# mange dependencies with brew https://brew.sh/
+
+#
+# Runtimes
+#
+brew "asdf"                 # Extendable version manager with support for
+                            # Ruby, Node.js, Erlang & more
+                            # https://asdf-vm.com/
+
+#
+# Deployment tools
+#
+brew 'awscli'               # Official Amazon AWS command-line interface
+                            # https://aws.amazon.com/cli/
+brew "kubectl"              # Kubernetes command-line interface
+                            # https://kubernetes.io/
+
+#
+# Virtualization
+#
+brew 'colima'               # Container runtimes on MacOS (and Linux) with
+                            # minimal setup
+                            # https://github.com/abiosoft/colima/blob/main/README.md
+brew 'docker'               # Pack, ship and run any application as a
+                            # lightweight container https://www.docker.com/
+brew 'docker-compose'       # Isolated development environments using Docker
+                            # https://docs.docker.com/compose/
+brew 'localstack'           # Fully functional local AWS cloud stack
+                            # https://localstack.cloud/
+
+#
+# IDE's Integrated Developer Environments
+#
+cask "android-studio"       # https://developer.android.com/studio/
+cask "arduino-ide"          # arduino-ide: 2.2.1
+                            # https://www.arduino.cc/en/software
+cask "visual-studio-code"   # preferred code editor
+
+#
+# Communications
+#
+cask "coscreen"             # https://www.coscreen.co/
+
+#
+# Utilities
+#
+brew "just"                 # Handy way to save and run
+                            # project-specific commands
+                            # https://github.com/casey/just
+brew "git"                  # Distributed revision control system
+                            # https://git-scm.com
+brew "ag"                   # sliver searcher, a faster grep
+brew "jq"                   # UNIX tool for parsing and querying JSON
+brew "wget"                 # UNIX tool for fetching things from the nets
+brew "gh"                   # GitHub command-line tool https://cli.github.com/
+brew "tmux"                 # terminal multiplexer for automating running many
+                            # processes across many windows
+brew 'base64'               # Encode and decode base64 files
+                            # https://www.fourmilab.ch/webtools/base64/
+brew 'ossp-uuid'            # ISO-C API and CLI for generating UUIDs
+                            # http://www.ossp.org/pkg/lib/uuid/
+                            # using: uuidgen
+brew 'watch'                # Executes a program periodically,
+                            # showing output fullscreen
+                            # https://gitlab.com/procps-ng/procps
+brew "libpq"                # needed for pg gem install pg -v '1.2.3' postgres
+brew "postgresql@14"        # Object-relational database system
+                            # https://www.postgresql.org/
+brew "postgresql@15"        # Object-relational database system
+                            # https://www.postgresql.org/
+brew "postgis"              # Adds support for geographic objects to PostgreSQL
+                            # https://postgis.net/
+                            # postgis: stable 3.3.4 (bottled), HEAD
+
+brew "exercism"             # code learning platform
+brew "ffmpeg"               # video processing like making animated gifs
+cask "spectacle"            # screen realestate management
+
+brew "gnupg"                # GNU Pretty Good Privacy (PGP) package
+                            # https://gnupg.org/
+
+cask "iterm2"               # https://www.iterm2.com/
+
+tap "derailed/k9s"
+brew "derailed/k9s/k9s"     # Kubernetes CLI To Manage Your Clusters In Style!
+                            # https://k9scli.io/
