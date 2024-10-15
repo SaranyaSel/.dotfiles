@@ -84,3 +84,6 @@ cask "iterm2"               # https://www.iterm2.com/
 tap "derailed/k9s"
 brew "derailed/k9s/k9s"     # Kubernetes CLI To Manage Your Clusters In Style!
                             # https://k9scli.io/
+
+brew "starship"             # Cross-shell prompt for astronauts
+                            # https://starship.rs/
